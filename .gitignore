@@ -1,0 +1,29 @@
+# 你的Conda虚拟环境（必排除，避免推送大文件）
+steel_det/
+# 通用虚拟环境
+venv/
+env/
+# Python缓存/编译文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# 日志/临时文件
+*.log
+*.swp
+*.tmp
+# 依赖/构建文件
+dist/
+build/
+*.egg-info/
+# 敏感配置文件（含密码/服务器信息）
+config.py
+settings.py
+*.ini
+*.yml
+# 数据/模型大文件（不推送，占仓库空间）
+data/
+dataset/
+models/
+*.pth
+*.pt
