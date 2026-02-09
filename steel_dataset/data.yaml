@@ -1,0 +1,6 @@
+path: /home/ubuntu/Project/steel_dataset  # 划分后数据集根路径
+train: train/images
+val: val/images
+
+nc: 5  # 类别数
+names: ['', 'defect_1', 'defect_2', 'defect_3', 'defect_4']  # 1-4对应缺陷
