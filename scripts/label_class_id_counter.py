@@ -40,7 +40,7 @@ def count_class_id_distribution(labels_dir):
                 cls_id = int(parts[0])
                 total_annotations += 1
                 # 统计类别ID
-                if 1 <= cls_id <= 4:
+                if 0 <= cls_id <= 3:
                     class_count[cls_id] += 1
                 else:
                     # 记录无效ID的文件
@@ -83,5 +83,5 @@ def count_class_id_distribution(labels_dir):
 # 使用示例
 if __name__ == "__main__":
     # 替换为你的标注文件夹路径
-    LABELS_DIR = "/home/ubuntu/Project/train_labels"
+    LABELS_DIR = "/home/ubuntu/Project/steel_dataset/val/labels"
     count_class_id_distribution(LABELS_DIR)
