@@ -1,0 +1,9 @@
+names:
+- defect_1
+- defect_2
+- defect_3
+- defect_4
+nc: 4
+path: /home/ubuntu/Project/steel_dataset
+train: /home/ubuntu/Project/steel_dataset/temp_train_improved.txt
+val: val/images
